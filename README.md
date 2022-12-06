@@ -35,12 +35,12 @@ Imagine that the user submits the data through an HTML form. **The data is valid
 
 ```php
 $userInput = [
-    // User form data
+    // Data submitted by the user
     'name' => 'Tomek',
     'age' => 18,
     'car' => 'Dacia Sandero',
     'engine' => 1.0,
-    // User form data
+    // Data collected by the application
     'userDevice' => 'Android',
     'submissionDate' => '2200-02-02'
 ];
