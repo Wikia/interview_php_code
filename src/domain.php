@@ -67,9 +67,9 @@ class CarQuestionnaireEntity extends Entity {
 
 
 class CarQuestionnaireHandler{
-    private $repository;
+    private CarQuestionnaireRepository $repository;
 
-    public function __construct( $repository) {
+    public function __construct( CarQuestionnaireRepository $repository ) {
         $this->repository = $repository;
     }
 
