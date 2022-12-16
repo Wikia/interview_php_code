@@ -46,7 +46,7 @@ $userInput = [
 ];
 ```
 
-The framework that we use passes this object to the `class Controller` in the `main.ts` file. This is the entry point to our slice of the application. The Controllers task is to push the request through the process, specifically to the domain layer and respond with an HTML template that will be embedded in the page. The entry point to the domain layer is the `class CarQuestionnaireHandler`. Once the handler deals with the submitted data according to the business requirements, an HTML template is being constructed and returned and from there the framework takes over again.
+The framework that we use passes this object to the `class Controller` in the `main.php` file. This is the entry point to our slice of the application. The Controllers task is to push the request through the process, specifically to the domain layer and respond with an HTML template that will be embedded in the page. The entry point to the domain layer is the `class CarQuestionnaireHandler`. Once the handler deals with the submitted data according to the business requirements, an HTML template is being constructed and returned and from there the framework takes over again.
 
 ## Comments
 There are two types of comments in this code. Comments prefixed with the [SI] tag are part of the explanation of this exercise slice of code for the benefit of the discussion. Other comments are something that the devs left during the development.
